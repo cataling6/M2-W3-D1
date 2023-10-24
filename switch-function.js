@@ -37,15 +37,13 @@ console.log(boundary(100));
 /* 
 let reverseString = function (stringa) {
   let stringaDaInvertire = stringa.split(""); //splitto i caratteri in un array
-  let stringaReverese = stringaDaInvertire.reverse(); //uso metodo reverse 
-  stringaDaInvertire = stringaReverese.join(""); //ricompongo la stringa
+  let stringaReverese = stringaDaInvertire.reverse(); //uso metodo reverse
 
-  return stringaDaInvertire;
+  return (stringaDaInvertire = stringaReverese.join("")); //ricompongo la stringa
 };
 
 console.log(reverseString("epo"));
 */
-
 /* ESERCIZIO 4 - DA FINIRE
  Scrivi una funzione chiamata "upperFirst", che accetta una stringa come parametro e la ritorna rendendo maiuscola ogni lettera iniziale di ogni parola.
 */
@@ -63,6 +61,7 @@ let upperFirst = function (str) {
 };
 console.log(upperFirst("ciao sono io shallallaaa"));
  */
+
 /* ESERCIZIO 5
  Scrivi una funzione chiamata "giveMeRandom", che accetta come parametro un numero chiamato n e ritorna un array contenente n numeri random contenuti tra 0 e 10.
 */
@@ -83,13 +82,14 @@ console.log(giveMeRandom(2));
 */
 
 /* 
-let area = function (l1, l2) {  
-if(l1!==l2)
-{
-  return (calcolaArea = l1 * l2);
-}else{
-console.log("ciccio, hai inserito i dati di un quadrato non di in rettangolo...");
-}
+let area = function (l1, l2) {
+  if (l1 !== l2) {
+    return (calcolaArea = l1 * l2);
+  } else {
+    console.log(
+      "ciccio, hai inserito i dati di un quadrato non di in rettangolo..."
+    );
+  }
 };
 console.log(area(3, 4));
 */
