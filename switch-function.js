@@ -84,9 +84,14 @@ console.log(giveMeRandom(2));
 
 /* 
 let area = function (l1, l2) {  
+if(l1!==l2)
+{
   return (calcolaArea = l1 * l2);
+}else{
+console.log("ciccio, hai inserito i dati di un quadrato non di in rettangolo...");
+}
 };
-console.log(area(22, 3));
+console.log(area(3, 4));
 */
 
 /* ESERCIZIO 2
