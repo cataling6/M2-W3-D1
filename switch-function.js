@@ -44,7 +44,7 @@ let reverseString = function (stringa) {
 
 console.log(reverseString("epo"));
 */
-/* ESERCIZIO 4 - DA FINIRE
+/* ESERCIZIO 4 
  Scrivi una funzione chiamata "upperFirst", che accetta una stringa come parametro e la ritorna rendendo maiuscola ogni lettera iniziale di ogni parola.
 */
 
@@ -118,18 +118,16 @@ console.log(crazyDiff(-9));
 
 /*
 let codify = function (stringa) {
-  switch (stringa) {
-    case "code":
-      return stringa;
-      break;
-    default:
-      let stringa2 = "code ";
-      let stringa3 = stringa;
-      return stringa.replace(stringa, stringa2).concat(stringa3);
+  if (stringa.indexOf("code") === 0){
+    return stringa;
   }
-};
+  else {
+     
+    return "code " + stringa
+  }
+}
 
-console.log(codify("catalin"));
+console.log(codify("ciao"))
  */
 
 /* ESERCIZIO 4
